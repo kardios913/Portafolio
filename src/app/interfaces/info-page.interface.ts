@@ -1,5 +1,5 @@
 
-export interface infoPagina {
+export interface InfoPagina {
   titulo?: string;
   instagram?: string;
   facebook?: string;
@@ -8,3 +8,10 @@ export interface infoPagina {
   equipo_Trabajo?: any[];
 }
 
+export interface InfoAbout {
+  client?: string;
+  logo?: string;
+  mision?: string;
+  titulo?: string;
+  aboutOur?: string;
+}
